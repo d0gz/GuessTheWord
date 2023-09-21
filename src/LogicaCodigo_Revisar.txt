@@ -1,0 +1,15 @@
+       ta na palavra  sim - verde, ou amarelo
+        nao - vermelho
+
+        se sim, depois:
+
+        ta na posicao certa  sim - verde
+        nao - se pergunta ja apareceu essa mesma letra antes e ela ta laranja?
+
+                se sim - vermelho
+        se nao - laranja.
+
+
+                classe main
+        classe palavras - word
+

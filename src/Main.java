@@ -96,7 +96,7 @@ public class Main {
         System.out.println("Word Generated!");
         System.out.println();
 
-        // variavel guess - quantidade de guesses q o user fez // variavel n - controle para printar as linhas de quantas guesses faltam // boolean found - se acertar a palavra fica true
+        // variavel guess - quantidade de guesses q o user fez // variavel n - controle para printar as linhas de quantas guesses faltam // boolean found - se acertar, a palavra fica true
         int guess = 0;
         int n = 4;
         boolean found = false;

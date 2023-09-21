@@ -30,8 +30,8 @@ public class Main {
         ArrayList<String> validGuessesList = new ArrayList<String>();
 
         // gera os paths
-        Path validAnswersPath = Paths.get("C:\\Users\\meu\\IdeaProjects\\Letreco\\src\\valid_answers.csv");
-        Path validGuessesPath = Paths.get("C:\\Users\\meu\\IdeaProjects\\Letreco\\src\\valid_guesses.csv");
+        Path validAnswersPath = Paths.get("C:\\Users\\meu\\IdeaProjects\\GuessTheWord\\src\\valid_answers.csv");
+        Path validGuessesPath = Paths.get("C:\\Users\\meu\\IdeaProjects\\GuessTheWord\\src\\valid_guesses.csv");
 
 
         // respostas carregando
@@ -70,7 +70,6 @@ public class Main {
         // cria nova palavra ja usando random e seta ela como a hiddenWord
         Word wordSet = new Word(answersList);
         String hiddenWord = wordSet.getWord();
-        System.out.println(hiddenWord);
 
         // loop pra fazer o textinho de boas vindas colorido.
         StringBuilder welcomeText = new StringBuilder();
